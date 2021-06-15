@@ -44,10 +44,7 @@ public class Board : MonoBehaviour
         //CreateButtons();
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0)) AutoSolve(ref riddleGrid);
-    }
+    
 
     private void InitGrid(ref int[,] grid)
     {
